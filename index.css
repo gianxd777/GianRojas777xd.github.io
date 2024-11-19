@@ -42,7 +42,7 @@ body {
 }
 
 .navbar .menu a:hover {
-    color: #ff6347; /* Color de hover en naranja */
+    color: #fff200; /* Color de hover en naranja */
     transform: scale(1.1);
 }
 
@@ -137,6 +137,19 @@ footer {
 }
 
 /* Sección de Enlaces Rápidos */
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer-left {
     width: 40%;
     text-align: center;
@@ -161,12 +174,32 @@ footer {
     color: #d1d1d1; /* Enlaces en gris claro */
     text-decoration: none;
     font-size: 16px;
+    
 }
 
 .footer-left ul li a:hover {
-    color: #ff6347; /* Enlaces en naranja al hacer hover */
-    text-decoration: underline;
+    color: #fff200; /* Enlaces en naranja al hacer hover */
+    transform: scale(1.1); /* Efecto de aumento de tamaño en hover */
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Separador entre las dos secciones */
 .footer-separator {
@@ -221,3 +254,26 @@ footer {
     margin: 0;
     color: #d1d1d1; /* Color gris claro para los derechos reservados */
 }
+
+
+
+.navbar .menu a.tareas {
+    border: 2px solid #ffeb3b; /* Borde amarillo */
+    padding: 10px 15px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #ffffff; /* Color del texto blanco */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+.navbar .menu a.tareas:hover {
+    color: #ff0000; /* Cambiar el color del texto a rojo cuando el cursor pase sobre el enlace */
+    border-color: #fbc02d; /* Borde amarillo más oscuro en hover */
+    transform: scale(1.05); /* Efecto de zoom al hacer hover */
+}
+
+
+
+
+
+
+

@@ -42,7 +42,7 @@ body {
 }
 
 .navbar .menu a:hover {
-    color: #ff6347; /* Color de hover en naranja */
+    color: #fff200; /* Color de hover en naranja */
     transform: scale(1.1);
 }
 
@@ -195,4 +195,19 @@ footer {
     font-size: 14px;
     margin: 0;
     color: #d1d1d1; /* Color gris claro para los derechos reservados */
+}
+
+
+.navbar .menu a.tareas {
+    border: 2px solid #ffeb3b; /* Borde amarillo */
+    padding: 10px 15px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #ffffff; /* Color del texto blanco */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+.navbar .menu a.tareas:hover {
+    color: #ff0000; /* Cambiar el color del texto a rojo cuando el cursor pase sobre el enlace */
+    border-color: #fbc02d; /* Borde amarillo más oscuro en hover */
+    transform: scale(1.05); /* Efecto de zoom al hacer hover */
 }
