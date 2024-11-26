@@ -227,3 +227,20 @@ footer {
     border-color: #fbc02d; /* Borde amarillo más oscuro en hover */
     transform: scale(1.05); /* Efecto de zoom al hacer hover */
 }
+
+
+/* Estilo para el botón "Ver Código" */
+.codigo-btn {
+    background-color: #4CAF50; /* Fondo verde para el botón "Ver Código" */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.codigo-btn:hover {
+    background-color: #45a049; /* Fondo verde más oscuro cuando se pasa el ratón */
+}
